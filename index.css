@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: #1F2937;
+}
+
+p {
+    color: white;
+}
+
+#hero {
+    background-color: #6943FF;
+    color: white;
+    background-size: cover;
+    height: 285;
+    padding: 8 16;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-el {
+    border: 2px solid #B295FF;
+    border-radius: 3px;
+    height: 50px;
+    width: 90px;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #6943FF;
+    color: white;
+    
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  }
+  
+#btn-el {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+#units {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #CCC1FF;
+}
+
+.unit-block {
+    width: 500px;
+    background-color: #273549;
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
