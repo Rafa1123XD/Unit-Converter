@@ -14,16 +14,16 @@ convertBtn.addEventListener("click", function() {
     console.log(baseValue)
     
     lenghtEL.textContent =
-     `${baseValue} meters = ${(baseValue * meterToFeet).toFixed(3)} feet |
-     ${baseValue} feet = ${(baseValue / meterToFeet).toFixed(3)} meters`
+     `${baseValue} meters = ${(baseValue * meterToFeet).toFixed(2)} feet |
+     ${baseValue} feet = ${(baseValue / meterToFeet).toFixed(2)} meters`
      
      volumeEL.textContent = 
      `${baseValue} liters = ${baseValue * literToGallon} gallons |
-      ${baseValue} gallons = ${(baseValue / literToGallon).toFixed(3)} liters`
+      ${baseValue} gallons = ${(baseValue / literToGallon).toFixed(2)} liters`
       
     massEL.textContent = `
-     ${baseValue} kilos = ${(baseValue * kiloToPound).toFixed(3)} pounds |
-     ${baseValue} pounds = ${(baseValue / kiloToPound).toFixed(3)} kilos`
+     ${baseValue} kilos = ${(baseValue * kiloToPound).toFixed(2)} pounds |
+     ${baseValue} pounds = ${(baseValue / kiloToPound).toFixed(2)} kilos`
      
 })
 
